@@ -13,7 +13,7 @@ const ChatBox = () => {
       setMessages(data.relation);
     };
     populateMessages();
-  }, []);
+  }, [id]);
 
   useEffect(() => {
     console.log(message);
