@@ -1,0 +1,36 @@
+.chat_box {
+  width: 100%;
+  display: flex;
+  flex-flow: column-reverse;
+  height: 100%;
+  overflow: scroll;
+}
+
+.message {
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+}
+
+.message span {
+  padding: 15px;
+  background: rgb(160, 32, 32);
+  border-radius: 10px;
+  color: white;
+}
+
+.message.doctor {
+  justify-content: flex-end;
+}
+
+.message.doctor span {
+  background: rgb(81, 81, 216);
+}
+
+/* .message.patient {
+  justify-content: flex-end;
+}
+
+.message.patient span {
+  background: rgb(81, 81, 216);
+} */

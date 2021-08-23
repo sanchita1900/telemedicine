@@ -1,0 +1,35 @@
+.Navbar {
+  background-color: rgba(3, 3, 41, 0.938);
+  width: 100%;
+  padding: 20px;
+  font-family: "Acme", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  height: 13vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  margin-bottom: 0;
+  /* position: absolute; */
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 150px;
+  margin-left: 1.5em;
+}
+
+.navItems {
+  display: flex;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-decoration: none;
+  background: transparent;
+  transition: 0.5s;
+  padding: 20px;
+  margin: 15px;
+}
+.items{
+  display: flex;
+}
